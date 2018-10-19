@@ -15,7 +15,7 @@ Les outils mis en oeuvre :
   Comme par exemple :
   * Procédure(avec vue) :
   
-  #!sql#
+  ```sql
   create view QTD as select pos_employe, count(distinct pos_diplome) as cd from posseder group by pos_employe ;
 
 delimiter |
@@ -27,6 +27,7 @@ END
 |
 CALL MoyenneDiplome()|
 delimiter ;
+```
   * Méthode de la class Requêtes :
   ```cs
   public string MoyenneDiplome()
