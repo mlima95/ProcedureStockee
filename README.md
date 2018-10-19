@@ -14,6 +14,7 @@ Les outils mis en oeuvre :
   >>Contient plusieurs méthodes pour chaque requêtes. Dans chaque méthodes des requêtes et procédure on été faites en sql. Des vues ont été réalisé en sql pour certaines procédure.
   Comme par exemple :
   * Procédure(avec vue) :
+  
   #!sql#
   create view QTD as select pos_employe, count(distinct pos_diplome) as cd from posseder group by pos_employe ;
 
@@ -27,7 +28,7 @@ END
 CALL MoyenneDiplome()|
 delimiter ;
   * Méthode de la class Requêtes :
-  #!csharp#
+  ```cs
   public string MoyenneDiplome()
         {
             string result = "";
@@ -51,7 +52,7 @@ delimiter ;
             cnx.Close();
             return result;
         }
-  
+  ```
 -Classes
 -Méthodes
 -Constructeur
