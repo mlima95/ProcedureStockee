@@ -4,7 +4,6 @@
 * Pouvoir gérer une base de données se nommant Gesper en c#
 
 Les outils mis en oeuvre :
-  * Git.
   * C#.
   * MySql.
   
