@@ -3,9 +3,6 @@
 **But du TP**
 * Pouvoir gérer une base de données se nommant Gesper en c#
 
-Les outils mis en oeuvre :
-  * C#.
-  * MySql.
   
  Ce tp contient deux classes :
   * Une class Connexion
@@ -61,3 +58,21 @@ delimiter ;
 -Connection à une base de données
 -Effectuer une procédure en c#/sql
 -Effectuer une requête en c#/sql
+
+  ## Languages
+```
+
+- C#
+
+-MySql database
+
+```
+## Outils
+```
+- Visual Studio 2010
+
+- MySql Server 5.7
+
+- Sublime Text (Editor)
+
+```
